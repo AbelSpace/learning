@@ -48,7 +48,7 @@ JavaScript最初的作用仅仅是验证表单，后来会添加一些动画，�
 
 CommonJS 规范是为了解决 JavaScript 的作用域问题而定义的模块形式
 
-![关系图](images/w3c_commonjs_node.png "关系图")
+![关系图](images/w3c_commonjs_node.png)
 
 _CommonJS定义的模块分为:{模块引用(require)} {模块定义(exports)} {模块标识(module)}_
 

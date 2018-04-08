@@ -8,11 +8,15 @@ SAPUI5部分，计划以MVC为中心，逐步展开讲解SAPUI5, 让初学者逐
 
 ## CSS
 
+* 文档进行中
+
 ## JavaScript
 
-## [JavaScript Modules](module.md)
+* 文档进行中
 
-清楚如下问题的请跳过，继续。
+## JS Modules
+
+清楚如下问题的请跳过此部分，继续下面章节; 或者点击[more](module.md)了解更多。
 
 * 应该料了解JavaScprit为什么要模块化
 

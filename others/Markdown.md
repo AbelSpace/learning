@@ -14,8 +14,8 @@
 - 图片 -> ![]()
 - 列表 -> +
 - 分割线 -> ---
-- 无序列表 -> - 或 *
-- 有序列表 -> 1.+空格
+- 无序列表 -> -, +, *
+- 有序列表 -> 1.
 
 ## 实例
 
@@ -32,9 +32,9 @@
 
 `行内代码`
 
-[百度](http://www.baidu.com "这是百度链接")
+[链接](http://www.baidu.com "这是链接")
 
-![百度Logo](https://www.baidu.com/img/bdlogo.png "百度")
+![我是嵌入图片](https://www.baidu.com/img/bdlogo.png "图片")
 
 [Google][1]、[GitHub][2]和[百度][3]都是程序猿经常访问的网页。
 
@@ -66,4 +66,4 @@
 
 ## Reference
 
-[认识与入门 Markdown](https://sspai.com/post/25137)
+- [认识与入门 Markdown](https://sspai.com/post/25137)
