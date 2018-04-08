@@ -1,25 +1,13 @@
 # Learning
-Abel self-learning
 
+*This space is Abel's self-learning.*
 
+本文主要是记录个人的学习与总结，希望对看到的人有所帮助，能起到少走弯路的效果更好，这也是个人花时间写总结的最终目的，毕竟时间是宝贵的。
 
+## Frontend
 
-### current learning
-1. github
-```
-Peter: https://www.youtube.com/watch?v=hOjrBHD6Wz4
+* [从SAPUI5开启前端之路](frontend/sapui5.md)
 
-```
+## Version Management
 
-
-### todo:
-1. learning roadmap and mindset
-  * soft skill
-    * Engish learning
-    * How to learn
-    * How to presention
-  * technic
-  * architect
-1. https://pages.github.com/
-1. JS 函数式编程指南 https://legacy.gitbook.com/book/llh911001/mostly-adequate-guide-chinese/details
-
+* [Github](version/github.md)
