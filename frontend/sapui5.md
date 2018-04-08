@@ -1,18 +1,28 @@
 # SAPUI5 Learning
 
+Table of content:
+
+1. [HTML5+CSS+JavaScript](#HTML5+CSS+JavaScript)
+1. [jQuery](#jQuery)
+1. [JS Modules](#JS-Modules)
+1. [SAPUI5](#SAPUI5)
+1. [More](#More)
+
 先铺述一些必要的概念，同步或填充一下大家脑中内容，方便大家快速学习SAPUI5.
 
 SAPUI5部分，计划以MVC为中心，逐步展开讲解SAPUI5, 让初学者逐渐深入了解，快速上手。
 
-## HTML5
+## HTML5+CSS+JavaScript
 
-## CSS
+知晓如下内容可跳过；或者点击[more](html_css_js.md)了解基本内容
 
-* 文档进行中
+* HTML5
+* CSS
+* JavaScript
 
-## JavaScript
+## jQuery
 
-* 文档进行中
+知晓请跳过；或者点击[more](jquery.md)了解overview。
 
 ## JS Modules
 
@@ -39,3 +49,7 @@ SAPUI5部分，计划以MVC为中心，逐步展开讲解SAPUI5, 让初学者逐
 ### Model
 
 ### Data binding
+
+## More
+
+* Lodash
