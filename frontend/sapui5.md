@@ -19,8 +19,9 @@ SAPUI5部分，计划以MVC为中心，逐步展开讲解SAPUI5, 让初学者逐
 * HTML5
 * CSS
 * JavaScript
+  * [JS style guide](js_style_guide.md)
 
-## jQuery
+## jQuery[Optional]
 
 知晓请跳过；或者点击[more](jquery.md)了解overview。
 
