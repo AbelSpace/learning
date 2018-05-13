@@ -37,6 +37,10 @@ table of content：
 |1002|李四|17|
 |1003|王五|20|
 
+Metacharacter | Description | Exmaple
+------------  | ----------- | -------
+\ | 转义 | `\.` or `\\`
+
 `行内代码`
 
 [链接](http://www.baidu.com "这是链接")
