@@ -49,7 +49,8 @@
 - JS
   - 区分大小写
   - JS中变量驼峰命名(常量的形式如: NAMES THIS)
-  - 使用单引号不混用空格和Tab
+  - 使用单引号 using ' , not "
+  - 不混用空格和Tab
   - 去掉行末的空格(vs code快捷键ctrl k ctrl x)
   - 同一行上插入大括号
 - HTML
