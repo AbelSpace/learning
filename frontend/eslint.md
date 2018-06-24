@@ -73,6 +73,7 @@ I highly recommend quoting a glob pattern to avoid your shell expanding the glob
 - `eslint "webapp/**/*.js"`
 
 ## Configuration Cascading and Hierarchy
+
 When using `.eslintrc.*` and `package.json` files for configuration, you can take advantage of configuration cascading. For instance, suppose you have the following structure:
 
 ```tree
@@ -86,3 +87,14 @@ your-project
 ```
 
 The configuration cascade works by using the closest `.eslintrc` file to the file being linted as the highest priority, then any configuration files in the parent directory, and so on. When you run ESLint on this project, all files in lib/ will use the `.eslintrc` file at the root of the project as their configuration. When ESLint traverses into the tests/ directory, it will then use your-project/tests/.eslintrc in addition to your-project/.eslintrc. So your-project/tests/test.js is linted based on the **combination** of the two `.eslintrc` files in its directory hierarchy, with the closest one taking priority. In this way, you can have project-level ESLint settings and also have directory-specific overrides.
+
+## ESlint Plugin
+
+- [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)
+- [eslint-plugin-deprecate](https://github.com/AlexMost/eslint-plugin-deprecate)
+- [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
+- eslint-plugin-json
+- eslint-plugin-html
+- eslint-plugin-filenames
+- eslint-plugin-promise
+- eslint-plugin-prettier
