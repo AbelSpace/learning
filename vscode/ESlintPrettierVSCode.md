@@ -33,9 +33,9 @@ See [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
 5. `package.json`
     ```json
     "scripts": {
-        "format": "prettier --write 'webapp/**/*.{js,css}'",
-        "eslint": "./node_modules/.bin/eslint 'webapp/**/*.js'",
-        "eslint-fix": "./node_modules/.bin/eslint --fix 'webapp/**/*.js'",
+        "format": "./node_modules/.bin/prettier --write 'webapp/**/*.{js,css,json.less}'",
+        "lint-js": "./node_modules/.bin/eslint 'webapp/**/*.js'",
+        "format-js": "./node_modules/.bin/eslint --fix 'webapp/**/*.js'",
         "eslint-check": "./node_modules/.bin/eslint --print-config .eslintrc | eslint-config-prettier-check"
     },
 6. `.eslintrc`
@@ -66,3 +66,16 @@ See [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
   "eslint.alwaysShowStatus": true
 }
 ```
+
+*Above solve single file format. But how about multi-files.*
+
+## Questions
+
+1. 设置了保存的时候格式化，Prettier支持的格式都会被自动格式化，按照设置。我们设置用`"eslint.autoFixOnSave": true,` 和`"editor.formatOnSave": false`，解决了按照eslint中的设置格式化代码在每次保存的时候，而不是VSCode设置。但是如果要批量处理呢？批量处理所有文件呢？
+
+> 批量处理可以调用`eslint --fix glob` for JS base on eslint rule settings incloude prettier settings，js格式化就用此命令
+> 如果是其他prettier支持的文件如json，less，css，md…，用eslint就不能处理了。
+
+## Reference
+
+- [configure-prettier-and-eslint-in-visual-studio-code/](https://www.39digits.com/configure-prettier-and-eslint-in-visual-studio-code/)
