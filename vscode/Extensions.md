@@ -1,5 +1,7 @@
 # VS Code Extensions
 
+> Shell command 'code' successfully installed in PATH.
+
 ## Color Theme
 
 - [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme).
