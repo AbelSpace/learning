@@ -48,7 +48,7 @@
 
 ## Sync
 
-- [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+- [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync), `ext install Shan.code-settings-sync`
 
 ## Settings
 
