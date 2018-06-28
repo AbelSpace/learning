@@ -46,7 +46,7 @@ or:
 
 `eslint lib/**`
 
-*Please note that when passing a glob as a parameter, it will be expanded by your shell. The results of the expansion can vary depending on your shell, and its configuration. If you want to use [node glob syntax](https://github.com/isaacs/node-glob), you have to quote your parameter (using double quotes if you need it to run in Windows), as follows:*
+_Please note that when passing a glob as a parameter, it will be expanded by your shell. The results of the expansion can vary depending on your shell, and its configuration. If you want to use [node glob syntax](https://github.com/isaacs/node-glob), you have to quote your parameter (using double quotes if you need it to run in Windows), as follows:_
 
 `eslint "lib/**"`
 
@@ -59,7 +59,7 @@ I highly recommend quoting a glob pattern to avoid your shell expanding the glob
 - `eslint --ext js webapp`
 - `eslint webapp`
 - `eslint webapp --ext js`
-  
+
   Above three are same.
 
   Below is wrong usage, will include other type files, event you set `--ext js` like `eslint --ext js webapp/**`
@@ -90,6 +90,7 @@ The configuration cascade works by using the closest `.eslintrc` file to the fil
 
 ## ESlint Plugin
 
+- [eslint-nibble](https://www.npmjs.com/package/eslint-nibble)
 - [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)
 - [eslint-plugin-deprecate](https://github.com/AlexMost/eslint-plugin-deprecate)
 - [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
